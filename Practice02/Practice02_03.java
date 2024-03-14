@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Practice02_03 {
+    public static void main(String[] args) {
+        ArrayList<Student> sarray = new ArrayList<>();
+
+        sarray.add(new Student("computer", 20191234, "kim"));
+        sarray.add(new Student("computer", 20153456, "yi"));
+        sarray.add(new Student("business", 20192468, "lee"));
+        sarray.add(new Student("music", 20162468, "park"));
+        sarray.add(new Student("business", 20143456, "han"));
+
+        System.out.println(sarray);
+
+        Collections.sort(sarray, new SortByNumDesc());  // 학번에 의한 내림차순 정렬
+        System.out.println(sarray);
+
+        Collections.sort(sarray, new SortByMajorNum()); // 전공에 의한 오름차순 정렬 + 같은 전공 내에서 학번으로 오름차순 정렬
+        System.out.println(sarray);
+    }
+}
