@@ -1,3 +1,5 @@
+package Practice02;
+
 import java.util.Comparator;
 
 // 전공에 의한 오름차순 정렬 + 같은 전공 내에서는 학번을 오름차순 정렬

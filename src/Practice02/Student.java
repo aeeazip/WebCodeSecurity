@@ -1,3 +1,5 @@
+package Practice02;
+
 public class Student implements Comparable<Student> {
     String major;
     int number;

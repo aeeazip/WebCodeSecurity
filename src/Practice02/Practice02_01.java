@@ -1,3 +1,5 @@
+package Practice02;
+
 public class Practice02_01 {
     public static void calcSum(Integer... n) {
         int sum = 0;
