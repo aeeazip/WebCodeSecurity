@@ -25,6 +25,6 @@ replay_pid*
 
 # Intelij
 .DS_Store
-../.idea
+/.idea
 *.iml
 out/
