@@ -1,4 +1,5 @@
-package Practice03;
+// 컴퓨터학과, 20201019, 정채원
+package Practice03.W03_02;
 
 import java.util.Scanner;
 
@@ -9,11 +10,11 @@ public class Practice03_02 {
 
         System.out.print("컴퓨터의 입력 : ");
         String comInput = s.next();
-        NewGame com = NewGame.encode(comInput);
+        Game com = Game.encode(comInput);
 
         System.out.print("당신의 입력 : ");
         String yourInput = s.next();
-        NewGame user = NewGame.encode(yourInput);
+        Game user = Game.encode(yourInput);
 
         Score rslt = whoswin(user, com);
         System.out.println(Score.print(rslt));
@@ -21,7 +22,7 @@ public class Practice03_02 {
         s.close();
     }
 
-    public static Score whoswin(NewGame user, NewGame com) {
+    public static Score whoswin(Game user, Game com) {
         // 사용자는 row ) 가위, 주먹, 보
         // 컴퓨터는 column ) 가위, 주먹, 보
         Score[][] scoreBoard = {

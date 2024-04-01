@@ -1,4 +1,5 @@
-package Practice03;
+// 컴퓨터학과, 20201019, 정채원
+package Practice03.W03_01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
