@@ -4,3 +4,4 @@
 ## 주차별 내용 정리
 - 2주차 : Comparable, Comparator 인터페이스를 활용한 정렬
 - 3주차 : Enumeration의 활용
+- 4주차 : 파일 입출력 및 자바 직렬화/역직렬화
