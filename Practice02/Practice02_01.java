@@ -1,3 +1,4 @@
+// 컴퓨터학과, 20201019, 정채원
 package Practice02;
 
 public class Practice02_01 {
