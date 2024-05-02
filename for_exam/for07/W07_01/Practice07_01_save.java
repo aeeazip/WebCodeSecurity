@@ -51,5 +51,6 @@ public class Practice07_01_save {
         } catch(IOException e) {
             throw new RuntimeException(e);
         }
+
     }
 }

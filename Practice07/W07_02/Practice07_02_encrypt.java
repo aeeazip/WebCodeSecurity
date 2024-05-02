@@ -7,10 +7,6 @@ import javax.crypto.NoSuchPaddingException;
 import java.io.*;
 import java.security.*;
 
-/*
-* Q. KeyPair는 07_01에서 만든걸 활용해도 되는지? 새로 만들어야 하는지?
-* Q. 암호화 키 파일을 어떤 걸 입력하느냐에 따라 암호화/복호화 모드인지 다른데 2가지 경우 모두 개발?
-*/
 public class Practice07_02_encrypt {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
