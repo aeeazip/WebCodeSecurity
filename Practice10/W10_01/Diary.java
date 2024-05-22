@@ -15,6 +15,11 @@ public class Diary implements Cloneable {
         return Arrays.toString(listOfDates);
     }
 
+    /*
+         clone 메소드는 protected 타입이므로 호출하는 클래스에서 Object를 상속을 받던가, 같은 패키지 내에 있어야 함
+         근데 상속도 안받고, 같은 패키지 내에 있지도 않기 때문에
+         Diary에서 public으로 오버라이딩 하지 않으면 메인에서 diary.clone 사용 불가
+     */
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
